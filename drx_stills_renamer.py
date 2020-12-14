@@ -1,6 +1,3 @@
-# TODO:
-# 1. Add a confirmation before renaming?
-# 2.
 
 from os import listdir, rename
 from os.path import isfile, isdir, join, splitext, exists, dirname, basename
