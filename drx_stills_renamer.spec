@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['drx_stills_renamer.py'],
-             pathex=['/Users/joshunwin/code/josh-unwin/python-scripts/drx_stills_renamer'],
+             pathex=['/Users/joshunwin/code/josh-unwin/film-workflow/drx_stills_renamer'],
              binaries=[],
              datas=[],
              hiddenimports=[],

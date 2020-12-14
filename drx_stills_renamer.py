@@ -24,7 +24,6 @@ def main():
                 new_filename = format_filename(file_data)
                 rename_files(filelist["folderpath"], filelist["files"], file, new_filename)
                 add_to_roll_list(new_filename, roll_list)
-                print(roll_list)
                 add_to_edl(new_filename, file_data, roll_list)
                 drx_count += 1
         save_edl_files(roll_list, filelist["folderpath"])
@@ -60,7 +59,6 @@ def args_parser_get_file_list():
     else:
         quit_program("No arguments provided. Quitting...")
 
-    print(filelist)
     return filelist
 
 
